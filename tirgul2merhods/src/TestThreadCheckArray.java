@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/** Main class that reads an array and a number from the user
+ * and runs 2 threads to check conditions on the array
+ * after processing, it prints the result and highlights the succesful positions in the array.
+ * @author Amit.Derei
+ */
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
